@@ -1,0 +1,27 @@
+.body{
+  background-color: #F0E68C;
+  font-family: Apple Chancery, cursive;
+}
+
+.logo{
+  margin-top: 70px;
+  margin-bottom: 20px;
+  border-radius:20px;
+}
+
+.panel-title{
+  font-size: 50px;
+}
+
+.example-button-row button{
+  width:300px;
+  height:125px;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  background: rgb(224, 133, 47);
+  color:white;
+  font-size: 30px;
+  border-radius:70px;
+}
+

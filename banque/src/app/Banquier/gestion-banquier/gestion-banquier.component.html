@@ -1,0 +1,28 @@
+<p><button mat-raised-button color="goBack" (click)="goBackButtonPressed()" > Retour </button>
+ 
+  <div class='recipe panel panel-default'>
+    <div class="panel-heading">
+      <h1 class="panel-title">Liste banquiers</h1>
+    </div>
+    <div class="panel-body">
+  
+      
+      <div>
+        <br>
+        <div class="data-title">Identifiant:</div>
+        <div>{{ banquier.id }}</div>
+        <div class="data-title">Nom:</div>
+        <div>{{ banquier.nom }}</div>
+        <div class="data-title">Prenom:</div>
+        <div>{{ banquier.prenom }}</div>
+        <div class="data-title">Agence:</div>
+        <div>{{ banquier.agence }}</div>
+        <br>
+    </div>
+   
+      <button mat-raised-button color="add" class="add" (click)="addNewComptePressed()" > Ajouter </button>
+      <button mat-raised-button color="edit" class="edit" (click)="editComptePressed()" > Modifier </button>
+      <button mat-raised-button color="edit" class="edit" (click)="deleteComptePressed()" > Supprimer </button>
+    
+  </div>
+  </div>

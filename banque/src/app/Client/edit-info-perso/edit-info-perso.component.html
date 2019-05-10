@@ -1,0 +1,37 @@
+<div class="infoperso panel panel-default">
+    <div class="panel-heading">
+        <U><h1>Modifier les informations personnelles</h1></U>
+        <br>
+        <br>
+    </div>
+    <div class="panel-body" style="text-align: center">
+        
+            <div class="input-group">
+                   <input type="text" class="form-control" [(ngModel)]="client_banque.nom" placeholder="Nom" name="nom_client" />
+                   
+            </div>
+            <div class="input-group">
+                    <input type="text" class="form-control" [(ngModel)]="client_banque.prenom" placeholder="Prenom" name="prenom_client" />
+                
+            </div>
+            <div class="input-group">
+                <input type="text" class="form-control" [(ngModel)]="client_banque.adresse" placeholder="Adresse" name="adresse_client" />
+            
+            </div>
+            <div class="input-group">
+                <input type="text" class="form-control" [(ngModel)]="client_banque.mail" placeholder="Mail" name="mail_client" />
+            
+            </div>
+            <div class="input-group">
+                <input type="text" class="form-control" [(ngModel)]="client_banque.nomConseiller" placeholder="nomConseiller" name="nomConseiller_client" />
+            
+            </div>
+            <div class="input-group">
+                <input type="text" class="form-control" [(ngModel)]="client_banque.idConseiller" placeholder="idConseiller" name="idConseiller_client" />
+            
+            </div>
+            <div class="input-group">
+                <input type="button" class="button-x" value="Ajouter les modifications" (click)="editInfoPersoClicked()"/>
+              </div>
+            </div>
+            </div>

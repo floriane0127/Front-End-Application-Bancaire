@@ -1,0 +1,26 @@
+<div class="body">
+  <div class='cover-photo-holder'>
+      <img class="logo" src="{{ './../assets/logo.PNG' }}"/>
+  </div>
+
+  <button mat-raised-button color="goBack" (click)="goBackButtonPressed()" >Retour</button>
+  
+  <br>
+  <h3 class="sous-titre" style="text-align:center" >Veuillez sélectionner un menu</h3>
+  
+  
+  <div class="panel-body">
+
+      <div class="data-title" *ngFor="let solde of CptBancaire.solde">Solde Comptes:</div>
+      <div>{{ CptBancaire.id }} - {{ CptBancaire.solde }}</div>
+   
+  <div class="button-a" style="text-align:center">
+
+    <div columns="3">
+    <button mat-raised-button color="compte" (click)="comptePressed()" >Comptes</button>
+    <button mat-raised-button color="info-perso" (click)="infoPersoPressed()" >Données personnelles</button>
+    <button mat-raised-button color="RIB" (click)="ribPressed()" >Obtenir un RIB</button>
+  </div>
+  </div>
+
+  </div>

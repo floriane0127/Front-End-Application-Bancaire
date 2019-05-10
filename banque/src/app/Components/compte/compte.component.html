@@ -1,0 +1,35 @@
+<p><button mat-raised-button color="goBack" (click)="goBackButtonPressed()" > Retour </button>
+ 
+  <div class='recipe panel panel-default'>
+    <div class="panel-heading">
+      <u><h1 class="panel-title">Listes comptes</h1></u>
+    </div>
+    <br>
+
+    <div class="panel-body" >
+
+      <p>N° identifiant: {{ virement.idRecepteur }}</p>
+      <br>
+
+      <table>
+        <tr>
+          <th>Identifiant</th>
+          <th>Date</th>
+          <th>Emetteur</th>
+          <th>Recepteur</th>
+          <th>Montant</th>
+        </tr>
+        <tr>
+          <td>{{ virement.id }}</td>
+          <td>{{ virement.date }}</td>
+          <td>{{ virement.idEmetteur }}</td>
+          <td>{{ virement.idRecepteur }}</td>
+          <td>{{ virement.montant }}</td>
+        </tr>
+
+
+      </table>
+
+      <button mat-raised-button color="edit" class="edit" (click)="deleteComptePressed()" > Supprimer </button>
+      </div>
+  </div>

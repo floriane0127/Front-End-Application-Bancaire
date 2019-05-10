@@ -1,0 +1,27 @@
+div.infoperso {
+    max-width: 700px;
+}
+
+div.input-group {
+    margin-top: 12px;
+}
+
+.form-control {
+    height: 30px;
+    width: 300px;
+    border-radius:10px;
+    font-size: 15px;
+}
+
+.button-x {
+    margin-top: 70px;
+   height: 70px;
+   width: 300px;
+   border-radius: 10px;
+   background-color: rgb(155, 199, 240);
+   font-size: 20px;
+}
+
+
+
+

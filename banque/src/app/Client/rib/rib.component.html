@@ -1,0 +1,27 @@
+<p><button mat-raised-button color="goBack" (click)="goBackButtonPressed()" > Retour </button>
+ 
+<div class='recipe panel panel-default'>
+  <div class="panel-heading">
+    <h1 class="panel-title">Relevé d'Identité Bancaire</h1>
+  </div>
+  <div class="panel-body">
+
+    
+    <div>
+      <br>
+      <div class="data-title">Nom:</div>
+      <div>{{ client.nom }}</div>
+      <div class="data-title">Prenom:</div>
+      <div>{{ client.prenom }}</div>
+      <div class="data-title">Adresse:</div>
+      <div>{{ client.adresse }}</div>
+      <div class="data-title">IBAN:</div>
+      <div>{{ cptBancaire.iban }}</div>
+      <div class="data-title">BIC:</div>
+      <div>{{ cptBancaire.bic }}</div>
+      <br>
+  </div>
+ 
+  
+</div>
+</div>

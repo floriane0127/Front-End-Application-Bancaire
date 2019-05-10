@@ -1,0 +1,17 @@
+.panel-body{
+    border-width:10px;
+    border-color: rgb(38, 185, 9);
+    border-style: groove;
+    max-width: 500px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.edit {
+    height: 40px;
+    width: 150px;
+    margin-left: 170px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+
+}

@@ -1,0 +1,31 @@
+<p><button mat-raised-button color="goBack" (click)="goBackButtonPressed()" > Retour </button>
+ 
+  <div class='recipe panel panel-default'>
+    <div class="panel-heading">
+      <h1 class="panel-title">Liste clients</h1>
+    </div>
+    <div class="panel-body">
+  
+      
+      <div>
+        <br>
+        <div class="data-title">Identifiant:</div>
+        <div>{{ client.id }}</div>
+        <div class="data-title">Nom:</div>
+        <div>{{ client.nom }}</div>
+        <div class="data-title">Prenom:</div>
+        <div>{{ client.prenom }}</div>
+        <div class="data-title">Adresse:</div>
+        <div>{{ client.adresse }}</div>
+        <div class="data-title">Identifiant conseiller:</div>
+        <div>{{ client.idConseiller }}</div>
+        <div class="data-title">Nom conseiller:</div>
+        <div>{{ client.nomConseiller }}</div>
+        <br>
+    </div>
+   
+      <button mat-raised-button color="add" class="add" (click)="addNewClientPressed()" > Ajouter </button>
+      <button mat-raised-button color="edit" class="edit" (click)="editClientPressed()" > Modifier </button>
+      <button mat-raised-button color="edit" class="edit" (click)="deleteClientPressed()" > Supprimer </button>
+  </div>
+  </div>

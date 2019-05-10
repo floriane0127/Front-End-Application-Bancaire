@@ -1,0 +1,36 @@
+.body{
+    background-color: rgb(214, 240, 241);
+    font-family: Apple Chancery, cursive;
+  }
+
+  .logo{
+    width: 220px;
+    height: 120px;
+  }
+  
+
+.button-1 button{
+    width:300px;
+    height:200px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: rgb(130, 91, 221);
+    color:white;
+    font-size: 30px;
+    border-radius:10px;
+  }
+
+
+  .button-2 button{
+    width:300px;
+    height:200px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background: rgb(130, 91, 221);
+    color:white;
+    font-size: 30px;
+    border-radius:10px;
+  }
+

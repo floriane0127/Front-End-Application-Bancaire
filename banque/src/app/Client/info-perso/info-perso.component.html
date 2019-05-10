@@ -1,0 +1,33 @@
+<p><button mat-raised-button color="goBack" (click)="goBackButtonPressed()" > Retour </button>
+ 
+  <div class='recipe panel panel-default'>
+    <div class="panel-heading">
+      <u><h1 class="panel-title">Informations personnelles</h1></u>
+    </div>
+    <br>
+    <div class="panel-body" >
+  
+      
+      <u><div>
+        <br>
+        <div class="data-title">Numéro d'identifiant:</div>
+        <div>{{ client.id }}</div>
+        <div class="data-title">Nom:</div>
+        <div>{{ client.nom }}</div>
+        <div class="data-title">Prenom:</div>
+        <div>{{ client.prenom }}</div>
+        <div class="data-title">Adresse:</div>
+        <div>{{ client.adresse }}</div>
+        <div class="data-title">Mail:</div>
+        <div>{{ client.mail }}</div>
+        <div class="data-title">Nom du conseiller:</div>
+        <div>{{ client.nomConseiller }}</div>
+        <div class="data-title">Numéro d'identifiant du conseiller:</div>
+        <div>{{ client.idConseiller }}</div>
+        <br>
+    </div></u>
+   
+    <button mat-raised-button color="edit" class="edit" (click)="editButtonPressed()" > Modifier </button>
+    
+  </div>
+  </div>
