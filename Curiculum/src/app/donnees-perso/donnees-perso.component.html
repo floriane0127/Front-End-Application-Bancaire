@@ -1,0 +1,26 @@
+<div class='recipe panel panel-default' (click)="userClicked()">
+  <div class="panel-heading">
+    <h1 class="panel-title" style="text-align:center">CV de Mme MEIGNEN Floriane</h1>
+  </div>
+  <div class="panel-body">
+    <h2>{{ cv.libelle }}</h2>
+  </div>
+  <div id="person">
+    <h4> Données personnelles </h4>
+    <ul>
+      <li>
+        Nom: {{ person.nom }} 
+      </li>
+      <li>
+        Prenom: {{ person.prenom }} 
+      </li>
+      <li>
+        Date de Naissance: {{ person.date_De_Naissance }} 
+      </li>
+      <li>
+        Description: {{ person.description }} 
+      </li>
+    </ul>
+  </div>
+</div>
+
